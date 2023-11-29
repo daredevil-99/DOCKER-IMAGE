@@ -1,8 +1,6 @@
 from flask import Flask, request
 from waitress import serve
-import pandas as pd
-import numpy as np
-import pickle
+import pickle 
 
 app = Flask(__name__)
 pickle_in = open(r"C:\Users\Admin\Documents\docker image\classifier.pickle", "rb")
