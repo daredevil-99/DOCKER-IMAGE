@@ -11,3 +11,5 @@ scipy==0.18.1
 sympy==1.0
 tensorflow>=1.6.0
 opencv-python==4.1.0.25
+flask==3.0.0
+waitress==2.1.2
