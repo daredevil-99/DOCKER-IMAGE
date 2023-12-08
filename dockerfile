@@ -1,9 +1,9 @@
 FROM mcr.microsoft.com/windows/servercore:ltsc2019
 
 # Install Python
-RUN powershell -Command "wget -Uri 'https://www.python.org/ftp/python/3.9.7/python-3.9.7.exe' -OutFile 'python-3.9.7.exe'" && \
-    python-3.9.7.exe /quiet InstallAllUsers=1 PrependPath=1 && \
-    DEL python-3.9.7.exe
+RUN powershell -Command "wget -Uri 'https://www.python.org/ftp/python/3.9/python-3.9.exe' -OutFile 'python-3.9.exe'" && \
+    python-3.9.exe /quiet InstallAllUsers=1 PrependPath=1 && \
+    DEL python-3.9.exe
 
 # Set the working directory
 WORKDIR /app
