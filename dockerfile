@@ -22,4 +22,3 @@ EXPOSE 5000
 # Set the entry point
 CMD ["python", "app.py"]
 
-

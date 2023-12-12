@@ -6,7 +6,6 @@ app = Flask(__name__)
 pickle_in = open(r"C:\Users\Admin\Documents\docker image\classifier.pickle", "rb")
 classifier = pickle.load(pickle_in)
 
-
 @app.route('/')
 def Welcome():
     return "WELCOME ALL"
